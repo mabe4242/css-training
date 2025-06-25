@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>レベル2 横に2つ並べる</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* 横方向中央揃え */
+      align-items: center;    /* 縦方向中央揃え */
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px; /* 四角形間の余白 */
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: steelblue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+</body>
+</html>
