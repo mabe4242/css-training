@@ -8,34 +8,44 @@
 </head>
 <body>
 
-  <form>
-    <label for="name">お名前：<span class="required">※必須</span></label>
-    <input type="text" id="name" name="name" required>
+  <header>
+    <h1> contact </h1>
+  </header>
 
-    <label for="email">メールアドレス：<span class="required">※必須</span></label>
-    <input type="email" id="email" name="email" required>
+  <main>
+    <form>
+      <label for="name">お名前：<span class="required">※必須</span></label>
+      <input type="text" id="name" name="name" required>
 
-    <label>ご用件：<span class="required">※必須</span></label>
-    <div class="radio-group">
-      <label><input type="radio" name="inquiry" value="question" required> お問い合わせ</label>
-      <label><input type="radio" name="inquiry" value="opinion"> ご意見</label>
-      <label><input type="radio" name="inquiry" value="other"> その他</label>
-    </div>
+      <label for="email">メールアドレス：<span class="required">※必須</span></label>
+      <input type="email" id="email" name="email" required>
 
-    <label for="prefecture">お住まいの地域：</label>
-    <select id="prefecture" name="prefecture">
-      <option value="">選択してください</option>
-      <option value="hokkaido">北海道</option>
-      <option value="tokyo">東京都</option>
-      <option value="osaka">大阪府</option>
-      <option value="okinawa">沖縄県</option>
-    </select>
+      <label>ご用件：<span class="required">※必須</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="inquiry" value="question" required> お問い合わせ</label>
+        <label><input type="radio" name="inquiry" value="opinion"> ご意見</label>
+        <label><input type="radio" name="inquiry" value="other"> その他</label>
+      </div>
 
-    <label for="message">お問い合わせ内容：<span class="required">※必須</span></label>
-    <textarea id="message" name="message" rows="5" required></textarea>
+      <label for="prefecture">お住まいの地域：</label>
+      <select id="prefecture" name="prefecture">
+        <option value="">選択してください</option>
+        <option value="hokkaido">北海道</option>
+        <option value="tokyo">東京都</option>
+        <option value="osaka">大阪府</option>
+        <option value="okinawa">沖縄県</option>
+      </select>
 
-    <button type="submit">🚀 送信</button>
-  </form>
+      <label for="message">お問い合わせ内容：<span class="required">※必須</span></label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">🚀 送信</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 contact</p>
+  </footer>
 
 </body>
 </html>
