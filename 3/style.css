@@ -20,6 +20,12 @@ label {
   font-weight: bold;
 }
 
+.required {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
