@@ -34,7 +34,8 @@ label {
 
 /* ラジオボタンとかのinputにはwidth100%をかけたくないので */
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+select {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
