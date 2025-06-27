@@ -66,13 +66,15 @@ button:hover {
     margin-left: 2px;
 }
 
-.radio-group {
+.radio-group,
+.checkbox-group {
     display: flex;
     gap: 1.5rem;
     margin-top: .5rem;
 }
 
-.radio-group label {
+.radio-group label,
+.checkbox-group label {
     display: flex;
     align-items: center;
     font-weight: normal;
@@ -81,7 +83,8 @@ button:hover {
 }
 
 @media (max-width: 680px) {
-    .radio-group {
+    .radio-group,
+    .checkbox-group {
         flex-direction: column;
         gap: .5rem;
     }
