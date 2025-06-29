@@ -1,5 +1,6 @@
 
 .practice__btn {
+    display: block;
     width: 200px;
     padding: 10px 0;
     margin: 100px auto 0;
@@ -9,5 +10,4 @@
     text-align: center;
     text-decoration: none;
     box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
-    display: block;
 }
