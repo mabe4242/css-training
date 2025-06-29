@@ -29,5 +29,16 @@ nav li a {
 }
 
 main {
-    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-thumbnail {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;  /*これで16:9にできる*/
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-bottom: 12px;
 }
