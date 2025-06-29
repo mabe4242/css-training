@@ -1,0 +1,16 @@
+.boxsizing {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 30px;
+  border: 20px solid blue;
+  margin: 100px auto 0;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
