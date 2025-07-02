@@ -10,14 +10,6 @@ header h1 {
     padding: 20px 0;
 }
 
-/* main要素に直接CSS当てていいわけないか... */
-/* じゃあ親タグもう一個つくる？ */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container {
     display: flex;
     flex-direction: column; 
@@ -28,23 +20,68 @@ main {
     text-align: center;
 }
 
+.form {
+    width: 50%;
+    margin: 20px auto;
+}
+
 .form-item {
-    padding: 20px 0;
+    padding: 24px 0;
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 30px;
 }
 
-.form-label{
+.form-label {
     width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-label .required {
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 20px;
+    padding: 8px 0;
+    width: 48px;
+    text-align: center;
+    background: #fff;
+    color: red;
+    font-size: 14px;
 }
 
 .form-item input {
+    padding: 0 10px;
+    height: 48px;
     width: 100%;
-    margin-left: 0px;
+    background: #eaedf2;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.form-item textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding: 0 10px;
+    height: 200px;
+    width: 100%;
+    background: #eaedf2;
+    font-size: 20px;
 }
 
 .form-button {
-    width: 100%;
+    border-radius: 2px;
+    margin: 32px auto 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 60%;
+    display: block;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
