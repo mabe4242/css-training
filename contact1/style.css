@@ -1,0 +1,28 @@
+header {
+    background-color: #000;
+    color: #fff;
+    height: 85px;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 200px;
+    padding: 20px 0;
+}
+
+/* main要素に直接CSS当てていいわけないか... */
+/* じゃあ親タグもう一個つくる？ */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+}
+
+label {
+    padding-right: 10px;
+}

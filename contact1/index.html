@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- h1って2個あっていいと思う？ -->
+    <header><h1>Contact Form</h1></header>
+    <main>
+        <div class="container">
+            <h1>お問い合わせ</h1>
+            <form action="">
+                <div class="form-parts">
+                    <label for="name">お名前</label><span class="requierd">必須</span>
+                    <input type="text" id="name" name="name" placeholder="テスト太郎">
+                    <p>名前を入力してください</p>
+                </div>
+                <div class="form-parts">
+                    <label for="email">メールアドレス</label><span class="requierd">必須</span>
+                    <input type="email" id="email" name="email" placeholder="test@example.com">
+                    <p>メールアドレスを入力してください</p>
+                </div>
+                <div class="form-parts">
+                    <label for="tell">電話番号</label><span class="requierd">必須</span>
+                    <input type="text" id="tell" name="tell" placeholder="09012345678">
+                    <p>電話番号を入力してください</p>
+                </div>
+                <div class="form-parts">
+                    <label for="content">お問合せ内容</label><span class="requierd">必須</span>
+                    <textarea name="content" id="content" cols="" rows=""  placeholder="資料をいただきたいです"></textarea>
+                </div>
+                <button type="submit">送信</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
