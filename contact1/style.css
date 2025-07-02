@@ -23,6 +23,28 @@ main {
     flex-direction: column; 
 }
 
-label {
-    padding-right: 10px;
+.form-title {
+    width: 100%;
+    text-align: center;
+}
+
+.form-item {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.form-label{
+    width: 100%;
+}
+
+.form-item input {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.form-button {
+    width: 100%;
 }
